@@ -1,0 +1,243 @@
+body {
+  background-image: url(../[klaiss]-part-one/bulldog.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+* {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.oblique {
+  font-style: oblique;
+}
+
+#container {
+  width: 960px;
+  margin: 0x auto;
+}
+
+#topButtons {
+  width: 480px;
+}
+
+#bottom {
+  width: 480px;
+}
+
+.box {
+  font-weight: 600;
+}
+
+.box {
+  position: absolute;
+  bottom: 50%;
+}
+
+.adoptme {
+  margin-top: 1px;
+  margin-right: 2px;
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  font-weight: 400;
+}
+
+.wewill {
+  font-weight: 300;
+  color: #88898B;
+}
+
+.button {
+  position: absolute;
+  bottom: 40%;
+  padding: 10px 30px;
+
+}
+
+.redtext {
+  color: #FF4850;
+}
+
+.redme {
+  color: #FF4850;
+}
+
+.myButton {
+  background-color: #FF4850;
+  border-radius: 15px;
+  border: 1px solid #FF4850;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #FF4850;
+}
+
+.myButton:hover {
+  background-color: #FF4850;
+}
+
+/* .myButton:active {
+  position: relative;
+  top: 1px;
+} */
+
+/* .myButton {
+  margin-top: 1px;
+  margin-right: 2px;
+  position: absolute;
+  top: 3%;
+  right: 3%;
+} */
+
+
+.rightButtons {
+  margin-top: 1px;
+  margin-right: 2px;
+  position: absolute;
+  top: 5%;
+  right: 15%;
+}
+
+.button {
+  background-color: #FF4850;
+  border-radius: 15px;
+  border: 1px solid #FF4850;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #FF4850;
+}
+
+.button:hover {
+  background-color: #FF4850;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a {
+  color: #88898B;
+}
+
+@media (max-width: 600px) {
+  body {
+    background: #F0ECEE;
+  }
+
+  #container {
+    width: 100%;
+  }
+
+  #topButtons {
+    position: absolute;
+    width: 100%;
+
+  }
+
+  .adoptme {
+    margin-left: -2%;
+    font-size: 150%;
+  }
+
+  .rightButtons {
+    position: absolute;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    font-family: sans-serif;
+  }
+
+  .aboutUs {
+    position: absolute;
+    width: 100%;
+    padding-top: 0%;
+    margin-left: -85%;
+
+  }
+
+  .whatWeDo {
+    position: absolute;
+    width: 100%;
+    padding-top: 20%;
+    margin-left: -90%;
+  }
+
+  .benefits {
+    width: 100%;
+    position: absolute;
+    padding-top: 38%;
+    margin-left: -94%;
+  }
+
+  .ourBuddies {
+    width: 100%;
+    position: absolute;
+    padding-top: 55%;
+    margin-left: -98%;
+  }
+
+  .myButton {
+    width: 100%;
+    margin-top: 63%;
+    padding-bottom: 5%;
+    margin-left: -87%;
+    padding-left: 50%;
+    padding-right: 50%;
+    text-align: center;
+  }
+
+  #bottom {
+    width: 100%;
+    position: absolute;
+    margin-top: 60%;
+  }
+
+  .button {
+    margin-bottom: -33%;
+    padding-left: 36%;
+    padding-right: 37%;
+    margin-left: -0.5%;
+
+  }
+
+  .box {
+    width: 100%;
+    margin-bottom: -25%;
+
+    font-size: 108%;
+  }
+}
